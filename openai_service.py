@@ -12,7 +12,7 @@ def analyze_currency_correlation(currencies):
         max_tokens=200
     )
 
-    # Extract insights from the OpenAI response
+    
     insights = response['choices'][0]['text']
 
     return insights
